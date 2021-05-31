@@ -1,0 +1,45 @@
+body {
+   background-color:#000000;
+}
+
+.aaa {
+    margin: 5% 0;
+   font-size: 50px;
+    position: absolute;
+    top: 450; left: 40x;
+    
+    bottom: 450;
+    width: auto;
+        font-size: 30px;
+        /*/*display: inline-block;*/
+
+        margin: 10px;
+        padding: 5px;
+        border-radius: 8px;
+        background-color: #d24444;
+        border: dashed #bbb;
+        box-shadow: 0 0 0 4px #d24444;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+
+.form{
+          margin-left: auto;
+    margin-right: auto;
+    width: 8em
+    }
+
+
+
+.loafd {
+    margin-left: auto;
+    margin-right: auto;
+        margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+    margin: 0;
+}
