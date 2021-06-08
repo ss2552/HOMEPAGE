@@ -1,0 +1,64 @@
+body {
+   background-color:#000000;
+}
+
+.moj {
+
+//上下左右のマージンを一括で指定する
+	padding-top: auto;
+	padding-bottom: 40;
+
+
+
+//文字のサイズ
+
+	font-size: 100px;
+
+	//いち
+	position: absolute;
+
+	//横幅
+	width: auto;
+
+	//余白
+	margin: 10px;
+
+	//真ん中幅,
+	padding: 5px;
+
+	//丸
+	border-radius: 8px;
+
+	//色
+	border: dashed #bbb;
+	box-shadow: 0 0 0 4px #d24444;
+
+	
+	//外側幅
+	margin-top: 40;
+	margin-right: auto;
+	margin-left: auto;
+	//文字位置;
+	display: inline-block;
+    }
+
+
+
+.form{
+          margin-left: auto;
+    margin-right: auto;
+    width: 8em
+    }
+
+
+
+.loafd {
+    margin-left: auto;
+    margin-right: auto;
+        margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+    margin: 0;
+}
