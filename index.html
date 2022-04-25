@@ -1,15 +1,19 @@
 <html>
     <body>
+        <head>
+<meta charset="utf-8">
+<title>HTML入門-テキストボックスの作成</title>
+</head>
+<body>
+	<p>TOKEN：<br>
+	<input type="text" id="TOKEN"></p>
+	<p><input type="button" value="確認する" id="btn"></p>
         <script> 
         import discord
-token = "OTY3MTE1OTAzOTA3MDA4NTUy.YmLm3w.vy8RC09WMPrrXUNJkqtN5hrYNDc"
-
 bot = discord.Client()
 async def on_message(message):
-    if message.content == 'ねこ':
-        await message.channel.send('にゃん')
-
-bot.run(token)
+await message.channel.send('にゃん')
+bot.run({msg.innerText = 'TOKEn.value'})
         </script>
     </body>
 </html>
