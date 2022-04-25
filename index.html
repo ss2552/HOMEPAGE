@@ -6,13 +6,26 @@
 <body>
 	<p>TOKEN：<br>
 	<input type="text" id="TOKEN"></p>
-	<p><input type="button" value="確認する" id="btn"></p>
+	<p><input type="button" value="確認する"></p>
         <script> 
+		function butotnClick(){
+  msg.innerText = TOKEN.value;
+}
+
+let nameText = document.getElementById('TOKEN');
+TOKEN.value = '名前';
+let msg = document.getElementById('msg');
+
+let checkButton = document.getElementById('checkButton');
+checkButton.addEventListener('click', butotnClick);
+		
+		
+		
         import discord
 bot = discord.Client()
 async def on_message(message):
 await message.channel.send('にゃん')
-bot.run({msg.innerText = 'TOKEN.value'})
+bot.run(msg.innerText = 'TOKEN.value')
         </script>
     </body>
 </html>
